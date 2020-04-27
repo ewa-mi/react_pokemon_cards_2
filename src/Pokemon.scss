@@ -1,0 +1,34 @@
+.moreButton {
+  font-size: 18px;
+  color: #fff !important;
+  text-transform: uppercase;
+  background: rgb(252, 119, 181);
+  padding: 10px;
+  display: inline-block;
+  border: none;
+  transition: all 0.4s ease 0s;
+}
+
+.moreButton:hover {
+  background: #17a2b8;
+  letter-spacing: 1px;
+  -webkit-box-shadow: 0px 5px 40px -10px rgba(0, 0, 0, 0.57);
+  -moz-box-shadow: 0px 5px 40px -10px rgba(0, 0, 0, 0.57);
+  box-shadow: 5px 40px -10px rgba(0, 0, 0, 0.57);
+  transition: all 0.4s ease 0s;
+}
+
+.Pokemon {
+  transition: transform 0.2s ease;
+}
+.Pokemon:hover {
+  transform: scale(1.02) translate(0, -3px);
+}
+
+.cardEffect {
+  transition: transform 0.2s ease;
+}
+
+.cardEffect:hover {
+  transform: scale(1.02) translate(0, -3px);
+}
